@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+  font-family: 'Montserrat', 'Helevtica', sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-color: #f2ecec;
+  color: #4b4848;
+  transition: background-color 1.25s ease-in-out;
+}
+
+.search-form {
+  display: flex;
+  padding: 0;
+  margin: 90px auto;
+  border: 0;
+  width: 400px;
+  height: 40px;
+}
+
+.search-input {
+  border: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px 20px;
+  background: white;
+  font-size: 20px;
+  color: #4b4848;
+  border-radius: 3px;
+  box-shadow: 0px 8px 15px rgba(75, 72, 72, 0.3);
+  transition: all 0.4s ease;
+}
+.search-input:focus {
+  outline: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.gallery {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.gallery-list-item {
+  width: 23%;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+.stats {
+  display: flex;
+}
+
+.stats-item {
+  display: inline-block;
+  margin: 5px;
+}
+
+.gallery-img {
+  display: block;
+  max-width: 100%;
+  width: 265px;
+  height: 177px;
+  object-fit: cover;
+}
+
+.btn {
+  color: #fff;
+  background-color: #4985ff;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 8px 15px rgba(75, 72, 72, 0.3);
+}
+
+.load-more-btn.btn {
+  display: flex;
+  margin: 30px auto;
+}
